@@ -27,11 +27,14 @@ client_socket.send(str(public_A[0]).encode())  # send n
 client_socket.send(str(public_A[1]).encode())  # send e
 
 # handshake is done now get the message and encrypt it
-message=input("please write a message to send : ")
-encoded_messages=RSA.en.encode(message)
+
 
 
 while True:
+    # get the message
+    message=input("please write a message to send : ")
+    encoded_messages=RSA.en.encode(message)
+
     # send number of groups
     client_socket.send(str(len(encoded_messages)).encode())
 
