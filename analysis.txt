@@ -1,0 +1,187 @@
+key size : 10 
+public-key : (902491, 348575) privat-key : (902491, 322495) 
+p = 947, q = 953
+elapsed time in seconds : 0.0 
+elapsed time in millis : 0.0 
+
+
+
+key size : 16 
+public-key : (2642477857, 1265573083) privat-key : (2642477857, 2252936275) 
+p = 42979, q = 61483
+elapsed time in seconds : 0.002008676528930664 
+elapsed time in millis : 2.008676528930664 
+
+
+
+key size : 18 
+public-key : (47617092521, 14320479377) privat-key : (47617092521, 32045521313) 
+p = 189061, q = 251861
+elapsed time in seconds : 0.009698629379272461 
+elapsed time in millis : 9.698629379272461 
+
+
+
+key size : 20 
+public-key : (784019840237, 198805651261) privat-key : (784019840237, 295459558741) 
+p = 753937, q = 1039901
+elapsed time in seconds : 0.03756880760192871 
+elapsed time in millis : 37.56880760192871 
+
+
+
+key size : 22 
+public-key : (10421475884581, 8696663147501) privat-key : (10421475884581, 6003437762501) 
+p = 2921881, q = 3566701
+elapsed time in seconds : 0.13872957229614258 
+elapsed time in millis : 138.72957229614258 
+
+
+
+key size : 25 
+public-key : (946716258816971, 545388499047137) privat-key : (946716258816971, 376041806557073) 
+p = 29831251, q = 31735721
+elapsed time in seconds : 1.2338147163391113 
+elapsed time in millis : 1233.8147163391113 
+
+
+
+key size : 28 
+public-key : (24603353035909763, 14478669589360547) privat-key : (24603353035909763, 10831746275624075) 
+p = 153659489, q = 160116067
+elapsed time in seconds : 6.336149454116821 
+elapsed time in millis : 6336.149454116821 
+
+
+
+key size : 32 
+public-key : (14246847052689561949, 10949044431661252097) privat-key : (14246847052689561949, 13004539113946266529) 
+p = 3762658937, q = 3786377477
+elapsed time in seconds : 446.19090962409973 
+elapsed time in millis : 446190.90962409973 
+
+
+
+key size : 40 
+public-key : (825483459607626169277311, 319767073053179790445503) privat-key : (825483459607626169277311, 254702652909478219664855) 
+key size : 10 
+public-key : (743623, 600085) privat-key : (743623, 263485) 
+p = 769, q = 967
+elapsed time in seconds : 0.0 
+elapsed time in millis : 0.0 
+
+
+
+key size : 16 
+public-key : (2017817099, 709311317) privat-key : (2017817099, 63803261) 
+p = 33623, q = 60013
+elapsed time in seconds : 0.0009968280792236328 
+elapsed time in millis : 0.9968280792236328 
+
+
+
+key size : 18 
+public-key : (47166592273, 5999125695) privat-key : (47166592273, 8662043647) 
+p = 204797, q = 230309
+elapsed time in seconds : 0.0009984970092773438 
+elapsed time in millis : 0.9984970092773438 
+
+
+
+key size : 32 
+public-key : (11990527668175734437, 6195419166406404473) privat-key : (11990527668175734437, 4894746779823798149) 
+p = 2923200079, q = 4101849803
+elapsed time in seconds : 76.08574795722961 
+elapsed time in millis : 76085.74795722961 
+
+
+
+key size : 32 
+public-key : (9926222261004379711, 3836609441014535959) privat-key : (9926222261004379711, 4627215299831465239) 
+key size : 32 
+public-key : (14238204166198454089, 9303464981316445263) privat-key : (14238204166198454089, 64850726580852727) 
+
+key size : 12 
+public-key : (8639017, 1137621) privat-key : (8639017, 4102781) 
+p = 2297, q = 3761
+elapsed time in seconds : 0.0 
+elapsed time in millis : 0.0 
+
+
+
+
+
+
+key size : 32 
+public-key : (6423995158367287661, 6127538426240591497) privat-key : (6423995158367287661, 2617171003697518609) 
+p = 2347102867, q = 2736989183
+elapsed time in seconds : 163.0267264842987 
+elapsed time in millis : 163026.7264842987 
+
+
+
+key size : 64 
+public-key : (198436259214226515391128823914041661299, 65338195688824157030024113761226072207) privat-key : (198436259214226515391128823914041661299, 148297111464704979572992198162264177783) 
+key size : 4 
+public-key : (143, 37) privat-key : (143, 13) 
+p = 11, q = 13
+elapsed time in seconds : 0.0 
+elapsed time in millis : 0.0 
+
+
+
+key size : 8 
+public-key : (45173, 32335) privat-key : (45173, 27931) 
+p = 199, q = 227
+elapsed time in seconds : 0.0 
+elapsed time in millis : 0.0 
+
+
+
+key size : 16 
+public-key : (2268407909, 1447861217) privat-key : (2268407909, 159640769) 
+p = 42013, q = 53993
+elapsed time in seconds : 0.0010137557983398438 
+elapsed time in millis : 1.0137557983398438 
+
+
+
+key size : 32 
+public-key : (8944826213746341719, 3797629572260163775) privat-key : (8944826213746341719, 3222217923646639159) 
+p = 2351798723, q = 3803397853
+elapsed time in seconds : 139.40818691253662 
+elapsed time in millis : 139408.18691253662 
+
+
+
+key size : 4 
+public-key : (143, 23) privat-key : (143, 47) 
+key size : 4 
+public-key : (143, 53) privat-key : (143, 77) 
+p = 11, q = 13
+elapsed time in seconds : 0.0 
+elapsed time in millis : 0.0 
+
+
+
+key size : 8 
+public-key : (24287, 6191) privat-key : (24287, 8063) 
+p = 149, q = 163
+elapsed time in seconds : 0.0 
+elapsed time in millis : 0.0 
+
+
+
+key size : 16 
+public-key : (2275601711, 175190605) privat-key : (2275601711, 106101133) 
+p = 35899, q = 63389
+elapsed time in seconds : 0.0009968280792236328 
+elapsed time in millis : 0.9968280792236328 
+
+
+
+key size : 32 
+public-key : (12810341050435700243, 2792670548996849653) privat-key : (12810341050435700243, 454092922367283037) 
+
+key size : 64 
+public-key : (206544077828077332856880615690492300807, 184739458942775129792177196144810553645) privat-key : (206544077828077332856880615690492300807, 194241859593344560252303362061616125669) 

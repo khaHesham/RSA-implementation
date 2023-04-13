@@ -1,14 +1,36 @@
-def common_modulus_attack(ciphertext1, ciphertext2, public_key):
-    n, e = public_key
-    gcd, s1, s2 = extended_gcd(ciphertext1, ciphertext2)
-    if gcd != 1:
-        return None
-    elif s1 < 0:
-        ciphertext1 = pow(pow(ciphertext1, -s1, n), -1, n)
-    else:
-        ciphertext1 = pow(ciphertext1, s1, n)
-    if s2 < 0:
-        ciphertext2 = pow(pow(ciphertext2, -s2, n), -1, n)
-    else:
-        ciphertext2 = pow(ciphertext2, s2, n)
-    return (ciphertext1 * ciphertext2) % n
+import RSA as RSA
+import math
+import time
+
+
+def factorize(n):
+    for i in range(3,int(math.sqrt(n))+1,2):
+        if n % i == 0:
+            return i, n // i
+    return None
+
+
+
+key_sizes = [2**i for i in range(2,7)]
+
+for key_size in key_sizes:
+    with open("analysis.txt", "a") as file:
+    # Write some text to the file
+        file.write(f"key size : {key_size} \n")
+
+        pub , prv=RSA.generate_keys(key_size)
+        file.write(f"public-key : {pub} privat-key : {prv} \n")
+
+        t1 = time.time()
+        p, q = factorize(pub[0])
+        t2 = time.time()
+
+        file.write(f"p = {p}, q = {q}\n")
+        file.write(f"elapsed time in seconds : {(t2-t1)} \n")
+        file.write(f"elapsed time in millis : {(t2-t1)*1000} \n")
+        file.write("\n\n\n")
+
+
+
+
+

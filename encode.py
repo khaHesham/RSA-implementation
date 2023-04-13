@@ -31,10 +31,6 @@ def encode(message):
         for i, c in enumerate(group):
             num += dict[c] * (37 ** (4 - i))
         numbers.append(num)
-
-    # Concatenate the resulting numbers to form the encoded message
-    encoded_message = ''.join(str(num) for num in numbers)
-
     # return encoded_message
     return numbers
 
